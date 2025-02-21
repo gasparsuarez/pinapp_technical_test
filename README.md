@@ -15,6 +15,8 @@
 
 - Como gestor de estados utilicé `flutter_bloc`, por preferencia y por su fácil implementación, separando la logica negocio de la lógica de UI.
 
+- También utilizo la clase `Either` para manejar dos tipos de respuesta cuando se llama a un método HTTP. En este caso manejo la clase `Left` que contiene el error y la clase `Right` que contiene la respuesta esperada o satisfactoria. Luego podemos utilizar programación funcional para obtener sus respectivos valores de cada clase.
+
 ## Instalación
 
 1. Abrir terminal.
